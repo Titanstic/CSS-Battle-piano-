@@ -1,0 +1,130 @@
+<div class="outerTria"><hr class="hr1">
+  <hr class="hr2"><hr class="hr3">
+<hr class="hr4">
+<hr class="hr5"><hr class="hr6"><hr class="hr7">
+
+</div>
+
+<div class="inTria1"></div>
+<div class="inTria2"></div>
+<div class="inTria3"></div>
+<div class="inTria4"></div>
+<div class="inTria5"></div>
+
+
+
+<style>
+  *{
+    margin:0;
+    padding:0;
+  }
+  body{
+    background-color:#998235;
+  }
+  .outerTria {
+    background-color:#191919;
+    width: 180px;
+    height: 100px;
+    border-radius:10px;
+    margin:auto;
+    margin-top:100px;
+  	  overflow:hidden;
+  }
+  .hr1{
+    border-radius:6px;
+    background-color:#FFFFFF;
+    width:19px;
+    height:68px;
+   	position:relative;
+    top:25px;
+   	left:5px;
+  overflow:hidden;
+  }
+.hr2{
+    border-radius:6px;
+    background-color:#FFFFFF;
+    width:18px;
+    height:68px;
+ 	position:relative;
+  	bottom:45px;
+  	left:29.5px;
+  }
+  .hr3{
+    border-radius:6px;
+    background-color:#FFFFFF;
+    width:18px;
+    height:68px;
+   	position:relative;
+    bottom:115px;
+   	left:54.3px;
+  }
+  .hr4{ border-radius:6px;
+    background-color:#FFFFFF;
+    width:18px;
+    height:68px;
+   	position:absolute;
+    bottom:105px;
+   	left:189px;}
+  .hr5{border-radius:6px;
+    background-color:#FFFFFF;
+    width:18px;
+    height:68px;
+   	position:absolute;
+    bottom:105px;
+   	left:214px;}
+  .hr6{border-radius:6px;
+    background-color:#FFFFFF;
+    width:18px;
+    height:68px;
+   	position:absolute;
+    bottom:105px;
+   	left:240px;}
+  .hr7{border-radius:6px;
+    background-color:#FFFFFF;
+    width:18px;
+    height:68px;
+   	position:absolute;
+    bottom:105px;
+   	left:265px;}
+  .inTria1{
+    border-color:#191919;
+    background-color:#191919;
+    width:15px;
+    height:35px;
+   	position:absolute;
+    bottom:140px;
+   	left:130px;
+  }
+  .inTria2{
+    background-color:#191919;
+    width:15px;
+    height:35px;
+   	position:absolute;
+    bottom:140px;
+   	left:155px; 
+  }
+    .inTria3{
+    background-color:#191919;
+    width:15px;
+    height:35px;
+   	position:absolute;
+    bottom:140px;
+   	left:205px; 
+  }
+    .inTria4{
+    background-color:#191919;
+    width:15px;
+    height:35px;
+   	position:absolute;
+    bottom:140px;
+   	left:230px; 
+  }
+    .inTria5{
+    background-color:#191919;
+    width:15px;
+    height:60px;
+   	position:absolute;
+    bottom:140px;
+   	left:255px; 
+  }
+</style>
